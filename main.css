@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+#container {
+    display: flex;
+    width: 100%;
+}
+#box {
+    margin-top: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#box2 {
+    width: 40%;
+}
+#steps {
+    height: 70px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#steps .linea {
+    display: flex;
+    background-color: #e0e0e0;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    height: 5px;
+}
+#steps .step-radios {
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 5px 12px;
+    border-radius: 30px;
+    margin: 0;
+    border: 5px solid #e0e0e0;
+    font-size: 20px;
+}
+
+
+#nextButton {
+    background-color: #2CDA9D;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#prevButton {
+    background-color: #e0e0e0;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 10px 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+#prevButton:hover {
+    transition: 0.4s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#nextButton:hover {
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#steps #radio1 {
+    border: 5px solid #2CDA9D;
+}
+#buttonsContainer {
+    padding: 13px 0;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 20px;
+
+}
